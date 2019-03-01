@@ -59,7 +59,7 @@ public class DataChangeQueueReceiver {
 						System.out.println("[去重队列里为空，无法发送任何消息到下一个queue]...");
 					}
 					try {
-						Thread.sleep(10000);
+						Thread.sleep(1000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
